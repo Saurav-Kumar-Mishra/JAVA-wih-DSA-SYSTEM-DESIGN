@@ -12,7 +12,6 @@ class removeDuplicate {
               {   
                   if(s.charAt(i)==t.charAt(j)&&s.charAt(i)!=' ')
                   { f=0;
-                    // System.out.print("repeating characters: "+s.charAt(i));
                   break; 
                 }
               }
@@ -24,7 +23,7 @@ class removeDuplicate {
           }
 
           System.out.println();  
-        System.out.println(t);
+        System.out.println("String after removing duplicate characters are: "+t);
           }
       }
 
