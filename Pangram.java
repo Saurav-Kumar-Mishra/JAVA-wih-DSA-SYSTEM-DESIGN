@@ -24,6 +24,6 @@ public class Pangram {
             
         }
         if(f!=0)
-        System.out.println("The given string is a pangram");
+        System.out.println("The given string "+s " is a pangram");
     }
 }
